@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Titillium+Web&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Zen+Tokyo+Zoo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+body {
+      background-color: rgb(224, 97, 0);
+      background-image: linear-gradient(90deg,rgba(153, 62, 1, 0.452), rgb(255, 128, 0), 
+      rgb(127, 0, 224));
+      text-align: center;
+      border-radius: 15px;     
+
+}
+
+main{
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: black;  
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h2 {
+    color: #FF8100;
+    background-color: rgba(0, 0, 0, 0.301);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    text-decoration:solid;
+}
+
+
+      /* Color Theme Swatches in Hex */
+      .Projeto-teste-1-hex { color: #993E01; }
+      .Projeto-teste-2-hex { color: #FF8100; }
+      .Projeto-teste-3-hex { color: #E06100; }
+      .Projeto-teste-4-hex { color: #7E00E0; }
+      .Projeto-teste-5-hex { color: #000000; }
+      
+      /* Color Theme Swatches in RGBA */
+      .Projeto-teste-1-rgba { color: rgba(153, 62, 1, 1); }
+      .Projeto-teste-2-rgba { color: rgba(255, 129, 0, 1); }
+      .Projeto-teste-3-rgba { color: rgba(224, 97, 0, 1); }
+      .Projeto-teste-4-rgba { color: rgba(126, 0, 224, 1); }
+      .Projeto-teste-5-rgba { color: rgba(0, 0, 0, 1); }
+      
+      /* Color Theme Swatches in HSLA */
+      .Projeto-teste-1-hsla { color: hsla(24, 98, 30, 1); }
+      .Projeto-teste-2-hsla { color: hsla(30, 100, 50, 1); }
+      .Projeto-teste-3-hsla { color: hsla(25, 100, 43, 1); }
+      .Projeto-teste-4-hsla { color: hsla(273, 100, 43, 1); }
+      .Projeto-teste-5-hsla { color: hsla(0, 0, 0, 1); };
