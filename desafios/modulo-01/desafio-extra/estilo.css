@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+header {
+    width: 80px;
+    padding: 20px;
+    font-variant: small-caps;
+    text-align: center;
+    display: inline-block;
+
+}
+
+div.midia > iframe {
+    position: relative;
+
+}
+
+body{
+    background-color: rgb(121, 183, 211);
+    font-size: 1.1em;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+}
